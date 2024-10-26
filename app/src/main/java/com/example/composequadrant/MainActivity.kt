@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting()
+                    Quadrants()
                 }
             }
         }
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting() {
+fun Quadrants() {
 
     Column(modifier = Modifier.fillMaxSize()) {
 
@@ -167,6 +167,6 @@ fun Greeting() {
 @Composable
 fun GreetingPreview() {
     ComposeQuadrantTheme {
-        Greeting()
+        Quadrants()
     }
 }
